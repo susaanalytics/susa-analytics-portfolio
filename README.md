@@ -15,6 +15,17 @@ Projects will be added here shortly. Each project will include:
 - reproducible code (where applicable)
 - visuals (charts / dashboards)
 
+## Project portfolio
+
+| Project | Tools | Focus | Status |
+|-------|-------|-------|--------|
+| Customer & Sales Insights Analysis | Python, SQL | Business insights, trends, KPIs | Planned |
+| Exploratory Data Analysis (EDA) Case Study | Python / R | Data exploration & storytelling | Planned |
+| Forecasting & Time Series Analysis | Python / R | Forecasting & modelling | Planned |
+| Power BI Executive Dashboard | Power BI | Visual analytics & reporting | Planned |
+
+
+
 ## Core skills
 - Python (pandas, numpy, statistical modelling)
 - R (data analysis, statistical modelling, visualisation)
