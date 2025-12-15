@@ -1,0 +1,4 @@
+-- Customer & Sales Insights Analysis
+-- Dataset: Online Retail
+-- Author: SusaAnalytics
+-- Purpose: Exploratory sales and customer analysis
