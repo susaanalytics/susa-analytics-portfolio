@@ -1,5 +1,24 @@
 # Customer & Sales Insights Analysis
 
+## Project Snapshot
+
+**Business question:**  
+How do customer behaviour, geography, and product performance drive revenue in an online retail business?
+
+**Dataset:**  
+Online Retail Transaction Data (UCI)
+
+**Key outcomes:**
+- Identified strong revenue concentration across a small number of countries.
+- Revealed clear seasonal revenue patterns with year-end peaks.
+- Found that repeat customers generate ~93% of total revenue.
+- Highlighted that a small subset of products accounts for a large share of sales.
+
+**Impact:**  
+The analysis provides clear, data-driven direction for customer retention, inventory planning, and targeted growth strategies.
+
+
+
 ## Overview
 This project analyses online retail transaction data to identify key sales trends,
 customer behaviour patterns, and product performance insights.
