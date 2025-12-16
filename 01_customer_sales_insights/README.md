@@ -55,3 +55,23 @@ The findings support:
 ### Top Products by Revenue
 ![Top Products by Revenue](images/top_products_revenue.png)
 
+
+## Business Takeaways
+
+- Sales revenue is highly concentrated in a small number of countries, suggesting opportunities for targeted geographic expansion and localisation strategies.
+- Clear seasonality is observed, with revenue peaking toward the end of the year, highlighting the importance of holiday-driven promotions and inventory planning.
+- Repeat customers generate the vast majority of total revenue, reinforcing the value of retention strategies such as loyalty programs and personalised offers.
+- A limited set of products accounts for a disproportionate share of revenue, indicating opportunities to prioritise high-performing products in pricing, marketing, and supply chain decisions.
+
+## How to Run This Project
+
+1. Clone the repository
+2. Install required Python libraries:
+   ```bash
+   pip install pandas numpy matplotlib seaborn
+
+3. Open the Jupyter notebook:
+notebooks/sales_insights_eda.ipynb
+
+4. Run cells sequentially to reproduce the analysis and visualisations.
+
