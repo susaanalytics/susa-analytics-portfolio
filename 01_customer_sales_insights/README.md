@@ -17,8 +17,6 @@ Online Retail Transaction Data (UCI)
 **Impact:**  
 The analysis provides clear, data-driven direction for customer retention, inventory planning, and targeted growth strategies.
 
-
-
 ## Overview
 This project analyses online retail transaction data to identify key sales trends,
 customer behaviour patterns, and product performance insights.
@@ -42,3 +40,18 @@ The findings support:
 - Targeted marketing and regional expansion strategies
 - Improved customer retention through loyalty initiatives
 - Better inventory and demand planning during peak seasons
+
+## Key Visual Insights
+
+### Revenue by Country (Top 10)
+![Revenue by Country](images/revenue_by_country.png)
+
+### Monthly Revenue Trend
+![Monthly Revenue Trend](images/monthly_revenue_trend.png)
+
+### Revenue by Customer Type
+![Revenue by Customer Type](images/revenue_by_customer_type.png)
+
+### Top Products by Revenue
+![Top Products by Revenue](images/top_products_revenue.png)
+
