@@ -24,7 +24,18 @@ The dashboard is designed for senior stakeholders to quickly monitor revenue per
 - Python (data preparation – see Project 01)
 
 ## 📸 Dashboard Preview
-*(Screenshots will be added below)*
+### Executive Overview
+![Executive Overview](dashboard_screenshots/overview.png)
+
+### Revenue Trends
+![Revenue Trends](dashboard_screenshots/revenue_trends.png)
+
+### Customer Segmentation
+![Customer Segmentation](dashboard_screenshots/customer_segments.png)
+
+### Top Products
+![Top Products](dashboard_screenshots/top_products.png)
+
 
 ## 🔍 Key Insights
 - Revenue is highly concentrated in a small number of countries
