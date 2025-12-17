@@ -46,3 +46,10 @@ The dashboard is designed for senior stakeholders to quickly monitor revenue per
 ## 📌 Notes
 This dashboard complements the exploratory analysis in **01_customer_sales_insights** and demonstrates how analytical insights are translated into executive-ready visuals.
 
+## Business Impact
+
+- Enabled executives to monitor revenue performance, customer behaviour, and product trends in one central dashboard.
+- Improved visibility of repeat vs one-time customer contribution to total revenue.
+- Supported data-driven decisions for marketing focus, inventory planning, and regional growth.
+
+
