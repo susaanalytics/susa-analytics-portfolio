@@ -25,6 +25,10 @@ Projects will be added here shortly. Each project will include:
 | Power BI Executive Dashboard | Power BI | Visual analytics & reporting | Planned |
 
 
+### 📊 Power BI Executive Dashboard
+- Executive-level Power BI dashboard analysing revenue trends, customer behaviour, and product performance  
+- 🔗 Project folder: [Power BI Executive Dashboard](02_power_bi_executive_dashboard)
+
 
 ## Core skills
 - Python (pandas, numpy, statistical modelling)
