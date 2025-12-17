@@ -1,8 +1,10 @@
-# Power BI Executive Dashboard
+# 📊 Power BI Executive Dashboard
 
-## 📊 Overview
-This project presents an executive-level Power BI dashboard built on online retail transaction data.
-The dashboard is designed for senior stakeholders to quickly monitor revenue performance, customer behaviour, and key business drivers.
+## Project Snapshot
+An executive-level sales and customer insights dashboard designed to support
+strategic decision-making, revenue optimisation, and customer retention.
+
+---
 
 ## 🎯 Business Objectives
 - Monitor overall revenue and growth trends
@@ -23,18 +25,46 @@ The dashboard is designed for senior stakeholders to quickly monitor revenue per
 - DAX (basic measures)
 - Python (data preparation – see Project 01)
 
-## 📸 Dashboard Preview
-### Executive Overview
-![Executive Overview](dashboard_screenshots/overview.png)
+## 📈 Key Visual Insights
 
-### Revenue Trends
-![Revenue Trends](dashboard_screenshots/revenue_trends.png)
+### 🔹 Revenue Trend (Monthly)
+![Monthly Revenue Trend](dashboard_screenshots/monthly_revenue_trend.png)
 
-### Customer Segmentation
-![Customer Segmentation](dashboard_screenshots/customer_segments.png)
+**Insight:** Clear seasonality with strong revenue peaks toward the end of the year,
+indicating holiday-driven demand.
 
-### Top Products
-![Top Products](dashboard_screenshots/top_products.png)
+---
+
+### 🌍 Revenue by Country
+![Revenue by Country](dashboard_screenshots/revenue_by_country.png)
+
+**Insight:** Revenue is highly concentrated in a small number of countries,
+suggesting opportunities for targeted geographic expansion.
+
+---
+
+### 👥 Revenue by Customer Type
+![Revenue by Customer Type](dashboard_screenshots/customer_purchase_frequency.png)
+
+**Insight:** Repeat customers contribute the vast majority of total revenue,
+highlighting the importance of retention strategies.
+
+---
+
+### 🛍️ Top Products by Revenue
+![Top Products](dashboard_screenshots/top_products_revenue.png)
+
+**Insight:** A limited set of products accounts for a disproportionate share of revenue,
+supporting prioritisation of high-performing items.
+
+---
+
+## 🧠 Business Value
+- Supports executive-level decision-making
+- Identifies revenue concentration risks
+- Highlights retention and growth opportunities
+- Enables data-driven marketing and inventory planning
+
 
 
 ## 🔍 Key Insights
