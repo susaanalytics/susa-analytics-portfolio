@@ -52,4 +52,16 @@ This dashboard complements the exploratory analysis in **01_customer_sales_insig
 - Improved visibility of repeat vs one-time customer contribution to total revenue.
 - Supported data-driven decisions for marketing focus, inventory planning, and regional growth.
 
+## Example DAX Measures
+
+```DAX
+Total Revenue = SUM(Sales[Revenue])
+
+Repeat Customer Revenue =
+CALCULATE(
+    [Total Revenue],
+    Sales[CustomerType] = "Repeat Customer"
+)
+
+
 
