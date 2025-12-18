@@ -65,9 +65,24 @@ This project addresses these needs using scenario-driven time series forecasting
 
 ## Scenario Outputs
 ![Scenario Fan Chart](images/scenario_fan_chart.png)
+The fan chart visualises forecast uncertainty and supports stress testing by showing plausible revenue ranges under different demand assumptions.
+
 ![Cumulative Revenue Impact](images/cumulative_revenue_scenarios.png)
+Cumulative scenario trajectories quantify upside potential and downside risk over time, supporting financial planning and risk governance.
 
 ---
+
+## Business Interpretation & Decision Impact
+
+This scenario-based forecasting analysis supports revenue planning and risk management by quantifying uncertainty around expected outcomes.
+
+Key takeaways:
+- The **base scenario** represents expected cashflow under current demand patterns.
+- The **optimistic scenario (+10%)** shows potential upside if demand accelerates, supporting growth planning.
+- The **downside scenario (−10%)** highlights revenue-at-risk under adverse conditions.
+
+Cumulative scenario analysis indicates a potential revenue gap of approximately **$300k–$500k** over the forecast horizon between optimistic and downside cases, enabling informed capital allocation, stress testing, and contingency planning.
+
 
 ## Project Status
 🚧 In progress — scenario models and insights under development
