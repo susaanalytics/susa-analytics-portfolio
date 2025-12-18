@@ -64,10 +64,13 @@ This project addresses these needs using scenario-driven time series forecasting
 - Executive Communication
 
 ## Scenario Outputs
+
+### Scenario Fan Chart
 ![Scenario Fan Chart](images/scenario_fan_chart.png)
 The fan chart visualises forecast uncertainty and supports stress testing by showing plausible revenue ranges under different demand assumptions.
 
-![Cumulative Revenue Impact](images/cumulative_revenue_scenarios.png)
+### Cumulative Revenue Impact
+![Cumulative Revenue](images/cumulative_revenue_scenarios.png)
 Cumulative scenario trajectories quantify upside potential and downside risk over time, supporting financial planning and risk governance.
 
 ---
