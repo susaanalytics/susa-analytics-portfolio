@@ -1,63 +1,89 @@
 # 📈 Forecasting & Time Series Analysis
 
 ## Project Overview
-Accurate forecasting is critical for planning, budgeting, and strategic decision-making.  
-This project applies time series analysis and forecasting techniques to historical sales data to identify trends, seasonality, and future demand patterns.
+Accurate forecasting is critical for planning, budgeting, and operational decision-making.  
+This project applies **classical and modern time-series forecasting models** to historical retail sales data to predict future revenue patterns.
 
-The focus is on **business-relevant forecasting**, not just statistical accuracy.
+The focus is on **business-relevant forecasting**, combining statistical rigour with interpretability.
 
 ---
 
 ## Business Problem
 Organisations need reliable demand forecasts to:
 - anticipate future revenue
-- manage inventory and resources
-- support financial and strategic planning
+- plan inventory and staffing
+- support financial and strategic decisions
 
-This project addresses these needs using interpretable time-series models.
+This project demonstrates how different forecasting approaches perform on real transactional data.
 
 ---
 
 ## Dataset
-- Historical retail sales data (monthly aggregation)
-- Time period: multiple years
-- Target variable: Monthly revenue
+- Online retail transaction data
+- Time granularity: **Daily revenue**
+- Target variable: **Total daily revenue**
+- Data cleaned to remove cancellations and negative transactions
 
 ---
 
 ## Methodology
 The analysis follows a structured forecasting pipeline:
 
-1. **Data preparation**
-   - Date parsing and aggregation
-   - Handling missing values and outliers
+### 1. Data Preparation
+- Revenue creation (`Quantity × UnitPrice`)
+- Removal of cancelled / negative invoices
+- Daily aggregation and missing-date handling
 
-2. **Exploratory Time Series Analysis**
-   - Trend and seasonality analysis
-   - Rolling statistics
-   - Time series decomposition
+### 2. Exploratory Time Series Analysis
+- Trend and volatility inspection
+- Weekly seasonality detection
+- Seasonal decomposition (additive model)
 
-3. **Forecasting Models**
-   - Baseline models (naïve / moving average)
-   - ARIMA / SARIMA
-   - Model evaluation and comparison
+### 3. Forecasting Models
+The following models were implemented and compared:
+
+- **Naïve baseline** (last observed value)
+- **SARIMA** – classical statistical model with weekly seasonality
+- **ETS / Holt-Winters** – exponential smoothing with trend and seasonality
+- **Prophet** – modern decomposable time-series model
+
+### 4. Model Evaluation
+- Train–test split (last 60 days as test set)
+- Performance metrics:
+  - MAE (Mean Absolute Error)
+  - RMSE (Root Mean Squared Error)
+
+---
+
+## Results Summary
+
+| Model    | MAE ↓ | RMSE ↓ |
+|---------|------|-------|
+| **SARIMA** | **13,196** | **23,702** |
+| ETS | 15,869 | 27,528 |
+| Prophet | 18,124 | 29,367 |
+| Naïve | 21,789 | 31,948 |
+
+**SARIMA achieved the best overall performance**, capturing weekly seasonality and short-term dynamics more effectively than other models.
 
 ---
 
 ## Key Insights
-- Sales exhibit strong **seasonality** and **long-term trends**
-- End-of-year periods show consistently higher demand
-- Forecasting models can support proactive business planning
+- Daily revenue shows strong **weekly seasonality**
+- Classical models (SARIMA, ETS) outperform Prophet on short-term horizons
+- Extreme demand spikes are harder to capture with purely statistical models
+- SARIMA provides a strong balance between accuracy and interpretability
 
 ---
 
 ## Tools & Skills
-- Python (Pandas, NumPy, Matplotlib, Statsmodels)
-- Time Series Analysis
-- Forecasting & Model Evaluation
-- Business Insight Communication
+- Python (Pandas, NumPy, Matplotlib)
+- Statsmodels (SARIMA, ETS)
+- Prophet
+- Time Series Forecasting
+- Model Evaluation & Business Interpretation
 
 ---
 
 ## Project Status
-🚧 In progress — forecasting models and visual outputs are being developed.
+✅ Completed — forecasting models, evaluation, and insights finalised.
