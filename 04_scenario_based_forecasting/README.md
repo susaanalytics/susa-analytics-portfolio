@@ -1,3 +1,6 @@
+| Scenario-Based Forecasting (Bank-Style) | Python | Scenario analysis, forecasting, decision support | In progress | [Open](./04_scenario_based_forecasting/) |
+
+
 # 📊 Scenario-Based Forecasting & Business Decision Support
 
 ## Project Overview
