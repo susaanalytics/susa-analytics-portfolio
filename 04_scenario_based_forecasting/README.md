@@ -66,7 +66,8 @@ This project addresses these needs using scenario-driven time series forecasting
 ## Scenario Outputs
 
 ### Scenario Fan Chart
-![Scenario Fan Chart](images/scenario_fan_chart.png)
+
+![Scenario Fan Chart](images/scenario_fan_chart%20(14).png)
 
 The fan chart visualises forecast uncertainty and supports stress testing by showing plausible revenue ranges under different demand assumptions.
 
