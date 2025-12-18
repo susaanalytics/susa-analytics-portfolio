@@ -63,6 +63,10 @@ This project addresses these needs using scenario-driven time series forecasting
 - Business & Risk Interpretation
 - Executive Communication
 
+## Scenario Outputs
+![Scenario Fan Chart](images/scenario_fan_chart.png)
+![Cumulative Revenue Impact](images/cumulative_revenue_scenarios.png)
+
 ---
 
 ## Project Status
