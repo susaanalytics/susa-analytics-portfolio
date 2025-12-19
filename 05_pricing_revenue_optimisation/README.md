@@ -27,18 +27,23 @@ Online retail transactions aggregated to monthly:
 1️⃣ Revenue Decomposition: Price vs Volume
 
 This analysis decomposes monthly revenue changes into price-driven and volume-driven components, helping identify the primary drivers of revenue growth and decline.
+![Revenue Decomposition](images/revenue_decomposition.png)
 
 2️⃣ Revenue Growth Contribution (%)
 
 This chart expresses the contribution of price and volume changes as percentages of total revenue change, highlighting periods where revenue movements were driven primarily by pricing decisions versus demand fluctuations.
 
-![Revenue Growth Contribution](images/Revenue%20Growth%20Contribution.%20Price%20vs%20Volume.png)
+![Revenue Growth Contribution: Price vs Volume](images/Revenue Growth Contribution. Price vs Volume.png)
+![Revenue Price Volume Decomposition](images/revenue_price_volume_decomposition.png)
+
+
 
 3️⃣ Revenue Change Attribution (Price vs Volume)
 
 A direct comparison of absolute revenue changes attributable to price and volume, supporting management decision-making around pricing strategy and demand management.
 
-![Revenue Change Attribution](images/price_vs_volume_contribution_pct.png)
+![Price vs Volume Contribution Percentage](images/price_vs_volume_contribution_pct.png)
+
 
 
 4️⃣ Price Shock Scenario Analysis (±5%)
@@ -46,7 +51,8 @@ A direct comparison of absolute revenue changes attributable to price and volume
 This scenario simulates the cumulative revenue impact of +5% and −5% price shocks, holding sales volume constant.
 It demonstrates the asymmetric risk and reward profile of pricing decisions — a key capability in banking, risk, and commercial analytics.
 
-![Price Shock Scenario](images/Cumulative%20Revenue%20Impact%20from%20Price%20Shocks%20(Volume%20Held%20Constant).png)
+![Cumulative Revenue Impact from Price Shocks](images/Cumulative Revenue Impact from Price Shocks (Volume Held Constant).png)
+
 
 
 
