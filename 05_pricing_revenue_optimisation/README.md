@@ -43,7 +43,9 @@ A direct comparison of absolute revenue changes attributable to price and volume
 This scenario simulates the cumulative revenue impact of +5% and −5% price shocks, holding sales volume constant.
 It demonstrates the asymmetric risk and reward profile of pricing decisions — a key capability in banking, risk, and commercial analytics.
 
-![Price Shock Scenario](images/Cumulative Revenue Impact from Price Shocks (Volume Held Constant).png)
+![Price Shock Scenario](images/Cumulative%20Revenue%20Impact%20from%20Price%20Shocks%20(Volume%20Held%20Constant).png)
+
+
 
 🧠 Business Interpretation
 
