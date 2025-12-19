@@ -1,49 +1,36 @@
-# Pricing & Revenue Optimisation Analytics  
-### Understanding Price, Volume, and Revenue Drivers
+# 💳 Project 05 — Pricing / Revenue Optimisation Analytics (Price vs Volume)
 
-# Pricing & Revenue Optimisation Analytics
+## Overview
+This project decomposes revenue movements into **price-driven** and **volume-driven** components to support pricing decisions, performance monitoring, and revenue planning—highly relevant for banking and commercial analytics.
 
-## Project Overview
-Revenue performance is driven by a combination of pricing, sales volume, and customer mix.  
-This project analyses historical transaction data to understand how changes in price and quantity influence revenue outcomes and to identify optimisation opportunities.
-
-The focus is on **decision-oriented analytics**, supporting pricing strategy, revenue management, and commercial planning.
-
----
-
-## Business Problem
-Organisations need to understand:
-- How much revenue change is driven by price vs volume
-- Which customers and products contribute most to revenue
-- Where pricing or volume interventions could improve performance
-
-This type of analysis is critical for banking, finance, and commercial strategy teams.
-
----
+## Business Questions
+- Is revenue growth driven by **price** or **demand/volume**?
+- What happens to revenue under **+5% / −5% price shocks**?
+- What does an **elasticity proxy** suggest about pricing power?
 
 ## Dataset
-- Transaction-level retail data
-- Variables include price, quantity, customer, and transaction date
-- Revenue defined as: `Price × Quantity`
+Online retail transactions aggregated to monthly:
+- Revenue = Quantity × UnitPrice  
+- Monthly metrics: Revenue, Average Price, Sales Volume
 
----
+## Method
+1. Monthly aggregation
+2. Revenue change decomposition:
+   - Price effect = ΔPrice × prior Volume
+   - Volume effect = ΔVolume × prior Price
+3. Contribution (%) analysis
+4. Price shock scenario (+5% / −5%)
+5. Elasticity proxy (ΔlogQ vs ΔlogP)
 
-## Methodology
-1. Revenue decomposition (price vs volume effects)
-2. Customer and product contribution analysis
-3. Pricing scenario simulation
-4. Business interpretation and optimisation insights
+## Key Insights
+- Revenue change is explained by a mix of price and volume effects.
+- Contribution percentages can spike when total revenue change is small or changes sign—so absolute $ impacts are also reported.
+- Scenario analysis helps quantify upside/downside revenue sensitivity to pricing moves.
 
----
+## Tools
+Python, Pandas, NumPy, Matplotlib, Statsmodels
 
-## Tools & Skills
-- Python (Pandas, NumPy, Matplotlib)
-- Revenue analytics
-- Pricing & volume analysis
-- Business insight communication
-
----
-
-## Project Status
-🚧 In progress — revenue decomposition and pricing scenarios under development.
-
+## Outputs
+- Price vs Volume contribution chart
+- Price shock cumulative impact chart
+- Elasticity proxy estimate + scatter plot
