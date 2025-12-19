@@ -32,6 +32,8 @@ This analysis decomposes monthly revenue changes into price-driven and volume-dr
 
 This chart expresses the contribution of price and volume changes as percentages of total revenue change, highlighting periods where revenue movements were driven primarily by pricing decisions versus demand fluctuations.
 
+![Revenue Growth Contribution](images/Revenue%20Growth%20Contribution.%20Price%20vs%20Volume.png)
+
 3️⃣ Revenue Change Attribution (Price vs Volume)
 
 A direct comparison of absolute revenue changes attributable to price and volume, supporting management decision-making around pricing strategy and demand management.
