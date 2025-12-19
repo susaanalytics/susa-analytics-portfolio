@@ -23,9 +23,38 @@ Online retail transactions aggregated to monthly:
 5. Elasticity proxy (ΔlogQ vs ΔlogP)
 
 ## Key Insights
-- Revenue change is explained by a mix of price and volume effects.
-- Contribution percentages can spike when total revenue change is small or changes sign—so absolute $ impacts are also reported.
-- Scenario analysis helps quantify upside/downside revenue sensitivity to pricing moves.
+
+1️⃣ Revenue Decomposition: Price vs Volume
+
+This analysis decomposes monthly revenue changes into price-driven and volume-driven components, helping identify the primary drivers of revenue growth and decline.
+
+2️⃣ Revenue Growth Contribution (%)
+
+This chart expresses the contribution of price and volume changes as percentages of total revenue change, highlighting periods where revenue movements were driven primarily by pricing decisions versus demand fluctuations.
+
+3️⃣ Revenue Change Attribution (Price vs Volume)
+
+A direct comparison of absolute revenue changes attributable to price and volume, supporting management decision-making around pricing strategy and demand management.
+
+![Revenue Change Attribution](images/Revenue Growth Contribution. Price vs Volume.png)
+
+4️⃣ Price Shock Scenario Analysis (±5%)
+
+This scenario simulates the cumulative revenue impact of +5% and −5% price shocks, holding sales volume constant.
+It demonstrates the asymmetric risk and reward profile of pricing decisions — a key capability in banking, risk, and commercial analytics.
+
+![Price Shock Scenario](images/Cumulative Revenue Impact from Price Shocks (Volume Held Constant).png)
+
+🧠 Business Interpretation
+
+Revenue growth is primarily volume-driven in most periods, with pricing playing a secondary but sometimes amplifying role.
+
+Price increases generate substantial cumulative gains, but also introduce downside risk if demand is price-sensitive.
+
+The elasticity proxy suggests moderate price sensitivity, supporting cautious price optimisation rather than aggressive pricing.
+
+Scenario-based stress testing provides a practical framework for risk-aware pricing and revenue planning, relevant to banking, finance, and commercial strategy roles.
+
 
 ## Tools
 Python, Pandas, NumPy, Matplotlib, Statsmodels
