@@ -38,7 +38,8 @@ This chart expresses the contribution of price and volume changes as percentages
 
 A direct comparison of absolute revenue changes attributable to price and volume, supporting management decision-making around pricing strategy and demand management.
 
-![Revenue Change Attribution](images/Revenue Growth Contribution. Price vs Volume.png)
+![Revenue Change Attribution](images/price_vs_volume_contribution_pct.png)
+
 
 4️⃣ Price Shock Scenario Analysis (±5%)
 
