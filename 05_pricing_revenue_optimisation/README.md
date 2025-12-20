@@ -37,7 +37,7 @@ This section provides an overview of monthly revenue, average price, and sales v
 This analysis decomposes monthly revenue changes into price-driven and volume-driven components.
 It shows that volume changes dominate major revenue swings, while price effects explain short-term fluctuations.
 
-![Revenue Decomposition] (images/revenue_decomposition.png)
+![Revenue Decomposition](images/revenue_decomposition.png)
 
 
 https://github.com/susaanalytics/susa-analytics-portfolio/blob/main/05_pricing_revenue_optimisation/images/revenue_decomposition.png
