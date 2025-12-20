@@ -39,6 +39,7 @@ It shows that volume changes dominate major revenue swings, while price effects 
 
 ![Revenue Decomposition] (images/revenue_decomposition.png)
 
+
 https://github.com/susaanalytics/susa-analytics-portfolio/blob/main/05_pricing_revenue_optimisation/images/revenue_decomposition.png
 
 
