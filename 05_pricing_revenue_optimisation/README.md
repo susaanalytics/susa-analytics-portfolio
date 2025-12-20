@@ -48,6 +48,19 @@ This chart expresses price and volume contributions as percentages of total reve
 
 ![Revenue Growth Contribution: Price vs Volume](images/Revenue%20Growth%20Contribution.%20Price%20vs%20Volume.png)
 
+4️⃣Price Elasticity Proxy Analysis: %Δ Quantity vs %Δ Price
+
+This scatter plot illustrates the relationship between percentage changes in price and percentage changes in quantity sold.  
+It provides a proxy estimate of price elasticity and highlights asymmetric demand responses to pricing changes.
+
+Key takeaways:
+- Demand is generally price-sensitive but not uniformly elastic
+- Price increases sometimes lead to sharp volume drops (pricing risk)
+- Price decreases tend to generate more consistent volume uplift
+
+![Elasticity Proxy: %Δ Quantity vs %Δ Price](images/Elasticity Proxy.png.png)
+
+
 
 
 4️⃣ Price Shock Scenario Analysis (±5%)
