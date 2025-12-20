@@ -58,12 +58,10 @@ Key takeaways:
 - Price increases sometimes lead to sharp volume drops (pricing risk)
 - Price decreases tend to generate more consistent volume uplift
 
-![Elasticity Proxy: %Δ Quantity vs %Δ Price](images/Elasticity Proxy.png.png)
+  ![Elasticity Proxy: %Δ Quantity vs %Δ Price](images/Elasticity%20Proxy.png)
 
 
-
-
-4️⃣ Price Shock Scenario Analysis (±5%)
+5️⃣  Price Shock Scenario Analysis (±5%)
 
 This scenario simulates the cumulative revenue impact of +5% and −5% price shocks, holding sales volume constant.
 It demonstrates the asymmetric risk–return profile of pricing decisions, a critical concept in banking, risk analytics, and commercial strategy.
