@@ -53,9 +53,11 @@ Maintain sufficient capital and liquidity buffers to absorb severe downside shoc
 
 # Visual Outputs
 
-Revenue under stress scenarios (monthly)
+ **Revenue under stress scenarios (monthly)**  
+  [View chart](images/revenue_stress_scenarios.png)
 
-Cumulative revenue impact vs base
+- **Cumulative revenue impact vs base**  
+  [View chart](images/cumulative_revenue_impact.png)
 
 
 # Tools & Skills
