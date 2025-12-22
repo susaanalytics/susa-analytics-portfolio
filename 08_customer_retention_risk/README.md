@@ -53,8 +53,6 @@ This project applies **survival analysis** to customer transaction history to qu
 
 ## Visual Outputs
 
-
-
 ### 1) Retention curve (Kaplan–Meier)
 ![Customer Retention Curve](images/customer_retention_km.png)
 
@@ -65,7 +63,7 @@ This project applies **survival analysis** to customer transaction history to qu
 ![Adjusted Survival Curves (Cox PH)](images/cox_adjusted_survival_by_segment.png)
 
 ### 4) Cox PH coefficients (log-hazard ratios) with 95% CI
-![Cox Coefficients](images/cox_coefficients_forest.png)
+![Cox Coefficients](images/cox_coefficients.png)
 
 ### 5) Schoenfeld residual diagnostics (PH assumption)
 ![Schoenfeld Residuals](images/schoenfeld_log_inactive_days.png)
