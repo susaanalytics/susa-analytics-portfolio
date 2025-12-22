@@ -53,11 +53,13 @@ This project applies **survival analysis** to customer transaction history to qu
 
 ## Visual Outputs
 
+
+
 ### 1) Retention curve (Kaplan–Meier)
 ![Customer Retention Curve](images/km_retention_overall.png)
 
 ### 2) Retention by value segment (Kaplan–Meier)
-![Retention by Value Segment (KM)](images/km_retention_by_segment.png)
+![Retention by Value Segment (KM)](images/images/customer_retention_by_value_segment_km.png)
 
 ### 3) Adjusted survival curves (Cox PH)
 ![Adjusted Survival Curves (Cox PH)](images/cox_adjusted_survival_by_segment.png)
